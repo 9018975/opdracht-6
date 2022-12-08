@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <?php
+<?php
         if(isset($_COOKIE['teller'])) {
             setcookie("teller", intval($_COOKIE['teller']) + 1);
         }
